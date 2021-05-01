@@ -2,40 +2,80 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Adrian Gonzalez Profile">
+    <meta name="description" content="Adrian Gonzalez - Portfolio">
     <meta name="author" content="Adrian Gonzalez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<meta name="keywords" content="HTML, CSS, JavaScript, Adrian, Gonzalez, ASU, C++, JAVA, Programmer, AZ, Phoenix, Coder, Programming Languages"> -->
 
 
     <title>Adrian Gonzalez | Software Engineer</title>
+
 </head>
 
 <body class="mainPage">
 
-    <div class="content">
-        <a href="https://agonza36.github.io/index.html">
-            <img src="images/AGLogo.png" alt="A Logo" width="60" height="60">
-        </a>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://agonza36.github.io/index.html"><img src="images/AGLogo.png" alt="A Logo" width="60" height="60"></a>
+                    <div class="navRight">
+                        <a href="#">Section 1</a>
+                        <a href="#">Section 2</a>
+                        <a href="#">Section 3</a>
+                        <a href="#">Section 4</a>
+                        <a href="#">Section 5</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+    <section>
+        <div class="content">
+            <h1>Hello World</h1>
+            <p>I'm hosted with GitHub Pages.</p>
+            <a href="https://agonza36.github.io/Page_1.html"> Go To Page One </a>
+        </div>
+    </section>
 
-        <a href="https://agonza36.github.io/Page_1.html"> Go To Page One </a>
-    </div>
-    <!-- Notes
-        background-color: deepskyblue;
-        
-    -->
 </body>
 </html>
 
+<!-- Notes
+    background-color: deepskyblue;
+
+
+-->
+
 <style>
-    .mainPage {      
+    .mainPage {
         background-image: url('images/background.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    header {
+        color: orangered;
+        display: inline;
+    }
+
+    nav {
+        border: 2px solid black;
+        border-radius: 15px;
+        margin: 25px 10px 75px 10px;
+        border-width: thin;
+        padding: 0px 0px 0px 0px;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .navRight {
+        float: right;
+        padding: 25px 20px 0px 0px
     }
 
     .content {
@@ -44,4 +84,8 @@
         margin: 1px;
         padding: 10px;
     }
+
 </style>
+
+
+
