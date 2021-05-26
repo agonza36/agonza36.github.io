@@ -20,10 +20,10 @@
                 <li>
                     <a class = "mobile" href="https://agonza36.github.io/index.html"><img src="images/AGLogoWhite.png" alt="A Logo" width="60" height="60"></a>
                     <div class="navRight">
-                        <a href="#">Home</a><a>&nbsp;</a><a>&nbsp;</a>
-                        <a href="#">About</a><a>&nbsp;</a><a>&nbsp;</a>
-                        <a href="#">Projects</a><a>&nbsp;</a><a>&nbsp;</a>
-                        <a href="#">Contact</a><a>&nbsp;</a><a>&nbsp;</a>
+                        <a class = "navBar" href="#">Home</a><a>&nbsp;</a><a>&nbsp;</a>
+                        <a class = "navBar" href="#">Projects</a><a>&nbsp;</a><a>&nbsp;</a>
+                        <a class = "navBar" href="#">About</a><a>&nbsp;</a><a>&nbsp;</a>
+                        <a class = "navBar" href="#">Contact</a><a>&nbsp;</a><a>&nbsp;</a>
                     </div>
                 </li>
             </ul>
@@ -116,7 +116,7 @@
     }
     
     @media (max-width: 400px) {
-        .navRight {
+        .mobile {
           display: none;
         }
       }
@@ -130,22 +130,25 @@
         padding-left: 20px;
         padding-right:40px;
     }
-    a:link {
+
+    a.navBar:link {
         color: white;
         text-decoration: none;
     }
 
-    a:hover {
-        text-decoration: underline;
-        border: 1px solid white;
-        border-left: none;
-        border-right: none;
-        border-top: none;
+    a.navBar:hover { 
+        color:aqua;
+        border-bottom: 2px solid blue;
     }
 
-    a:active {
-        text-decoration: underline;
+    a.navBar:active {
+        text-decoration: none;
     }
+
+    a.navBar:visited {
+        color: white;
+    }
+
 </style>
 
 
