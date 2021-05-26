@@ -18,7 +18,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="https://agonza36.github.io/index.html"><img src="images/AGLogoWhite.png" alt="A Logo" width="60" height="60"></a>
+                    <a class = "mobile" href="https://agonza36.github.io/index.html"><img src="images/AGLogoWhite.png" alt="A Logo" width="60" height="60"></a>
                     <div class="navRight">
                         <a href="#">Home</a><a>&nbsp;</a><a>&nbsp;</a>
                         <a href="#">About</a><a>&nbsp;</a><a>&nbsp;</a>
@@ -114,6 +114,12 @@
         float: right;
         padding: 25px 20px 0px 0px;
     }
+    
+    @media (max-width: 767px) {
+        .mobile {
+          display: none;
+        }
+      }
 
     .content {
         color: white;
